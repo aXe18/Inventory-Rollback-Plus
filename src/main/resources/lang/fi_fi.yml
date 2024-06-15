@@ -1,0 +1,64 @@
+general:
+  prefix: '&f[&bInventoryRollbackPlus&f]&r '
+
+commands:
+  no-permission: '&cSinulla ei ole oikeutta!'
+  error: '&cVirheellinen komento.'
+  enable: '&2Plugin on otettu käyttöön.'
+  disable: '&2Plugin on otettu pois käytöstä.'
+  reload: '&2Plugin on ladattu uudelleen.'
+  player-only: '&cKomentoa voi käyttää ainoastaan pelaaja.'
+  import: '&aOnnistuneesti tuotu varmuuskopiot vanhasta pluginista.'
+
+backup:
+  no-backup: 'Tällähetkellä ei ole varmuuskopioita %NAME%.'
+  not-online: '%NAME% ei ole onlinessä.'
+  force-saved-player: '%NAME%''s inventory on pakko tallennettu.'
+  force-saved-all: 'Kaikkien online pelaajien inventory on pakko tallennettu.'
+  not-forced-saved: 'Ongelma tallentaessa %NAME%''s inventorya.'
+
+attribute-restore:
+  main-inventory:
+    restored: '%NAME%''s pääinventory on palautettu.'
+    restored-player: 'Sinun inventory on palautettu %NAME% toimesta varmuuskopiosta.'
+    not-online: 'Et voi palauttaa %NAME%''s inventorya kun hän on offline.'
+    button-name: '&cYlikirjoitettu inventory varmuuskopiosta'
+    button-disabled: '&cYhden klikkauksen palautus on poissa käytöstä config.yml tiedostosta!'
+  ender-chest:
+    restored: '%NAME%''s enderarkku on palautettu.'
+    restored-player: 'Sinun enderarkku on palautettu %NAME% toimesta varmuuskopiosta.'
+    not-online: 'Et voi palauttaa %NAME%''s enderarkkua kun hän on offline.'
+    button-name: '&dPalauta Enderarkku'
+  health:
+    restored: '%NAME%''s terveys on palautettu.'
+    restored-player: 'Sinun terveytesi on palautettu %NAME% toimesta varmuuskopiosta.'
+    not-online: 'Et voi palauttaa %NAME%''s terveyttä kun hän on offline.'
+    button-name: '&aPalauta terveys'
+  hunger:
+    restored: '%NAME%''s nälkä on palautettu.'
+    restored-player: 'Sinun nälkäsi on palautettu %NAME% toimesta varmuuskopiosta.'
+    not-online: 'Et voi palauttaa %NAME%''s nälkää kun hän on offline.'
+    button-name: '&cPalauta nälkä'
+  experience:
+    restored: '%NAME%''s XP on asetettu levelille %XP%.'
+    restored-player: 'Sinun XP on palautettu levelille %XP% , %NAME% toimesta varmuuskopiosta.'
+    not-online: 'Et voi palauttaa %NAME%''s kokemusta wkun hän on offline.'
+    button-name: '&2Palauta pelaajan XP'
+    button-lore: '&rLeveli %XP%'
+
+death-location:  
+  world: '&6Maailma: &f%WORLD%'
+  x: '&6X: &f%X%'
+  y: '&6Y: &f%Y%'
+  z: '&6Z: &f%Z%'
+  reason: '&6DKuoleman syy: &f%REASON%'
+  time: '&6Aika: &f%TIME%'
+  teleport-to: '&3Teleporttaa missä tämä tapahtui.'
+  teleport: 'Sinut on teleportattu %LOCATION%'
+  invalid-world: 'Maailma %WORLD% ei ole tällähetkellä laduttu serverillä.'
+
+menu-buttons:
+  main-menu: '&fPää Menu'
+  next-page: '&fSeuraava Sivu'
+  previous-page: '&fEdellinen Sivu'
+  back-page: '&fTakaisin'
